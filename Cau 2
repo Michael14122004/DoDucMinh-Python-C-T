@@ -1,0 +1,20 @@
+# DoDucMinh-Python-C-T
+Trả lời câu hỏi "What is a flow chart?":Flowchart Python is essentially the Python programming language in visual form.
+You write a program by setting up a flowchart. When you run the flowchart, the software compiles to python byte-code, so that you can
+easily import modules you write in Flowchart Python into standard Python programs. Flowchart Python does make a few additions to standard
+Python, which will be outlined on the home page eventually.
+
+print("Hi")
+print("Nam nay ban bao nhieu tuoi")
+tuoi = input()
+print(int(tuoi))
+if int(tuoi) < 16:
+    print("Ban be hon toi")
+elif int(tuoi) == 16:
+    print("Ban bang tuoi toi")
+elif int(tuoi) > 16:
+    print("Ban lon hon toi")
+elif 18 < int(tuoi) < 25:
+    print("Ban da den tuoi di lam")
+else:
+    print("Ko quan tam")
