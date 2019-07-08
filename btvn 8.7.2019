@@ -1,0 +1,29 @@
+# DoDucMinh-Python-C-T
+from turtle import *
+
+shape('turtle')
+color('blue')
+speed(-100)
+
+for i in range(24):
+    for i in range(4):
+        forward(100)
+        left(90)
+    right(15)
+
+mainloop()
+
+
+from turtle import *
+
+shape('turtle')
+color('blue')
+speed(-1)
+i = 100
+for i in range(1000):
+    for i in range(4):
+        forward(i + 100)
+        left(90)
+right(7)
+
+mainloop()
