@@ -1,0 +1,100 @@
+# DoDucMinh-Python-C-T
+
+#3=>7
+i = range(3, 13)
+print(*i)
+
+#Doi ten thuong sang chu in hoa
+print("Hi")
+while True:
+    ten = input("Moi ban nhap ten vao day: ")
+    a = True
+    for i in range(1, 10):
+        if str(i) in ten:
+            print("Moi ban nhap lai")
+            a = False
+            break
+    if a == True:
+        print("Ten cua ban la", ten.upper())
+        break
+
+#Binh phuong
+print("Hi")
+so = input("Nhap so ban can vao day: ")
+while True:
+    a = True
+    if a == True:
+        if
+        SO = int(so)*int(so)
+        print(SO)
+        break
+    else:
+        print("Do ko phai la so")
+        a = False
+        break
+
+#Ve con rua
+from turtle import*
+
+i = input("Moi ban nhap ban kinh vao day: ")
+r = int(i) /2
+shape('turtle')
+color('cyan')
+speed(-1)
+
+for i in range(int(i)):
+    circle(100)
+
+mainloop()
+
+#In so le
+print("Hi")
+so = input("Nhap so ban muon in ra: ")
+n = int(so) + 1
+number = range(0, n)
+print(*number)
+if number % 2 == 1:
+    print(number)
+
+#In so
+print("Hi")
+while True: 
+    a = True
+    so = input("Nhap so ban muon in ra: ")
+    n = int(so) + 1
+    if int(so) < 0:
+        print("So be hon 0")
+        a = False
+        break
+    else:    
+        number = range(0, n)
+        print(*number)
+        break
+        
+#Nhap du lieu
+print("Hi")
+ten = input("Nhap ten cua ban vao vao day: ")
+gmail = input("Nhap gmail cua ban vao day: ")
+so = input("Nhap mat khau cua ban vao day: ")
+
+#Nhap ten
+print("Hi")
+while True:
+    ten = input("Moi ban nhap ten vao day: ")
+    a = True
+    for i in range(1, 10):
+        if str(i) in ten:
+            print("Moi ban nhap lai")
+            a = False
+            break
+    if a == True:
+        print("Ten cua ban la", ten)
+        break
+    
+#So lon 13
+print("Hi")
+so = input("Nhap so ban muon vao day: ")
+if int(so) > 13:
+    print("So lon hon 13")
+else:
+    print("So be hon 13")
