@@ -1,0 +1,16 @@
+items = ['com', 'pho', 'chao']
+print(items)
+new_item = input("Mon moi: ")
+items.append(new_item)
+print("Cac mon co trong thuc don la", items)
+print(items [1])
+print(*items, sep=',')
+items.pop(2)
+print(items)
+for i in items:
+    print(items)
+item = 'sad, fun, bored' 
+print(item)
+characters = list(items)
+item = items.split(', ')
+print(item)
